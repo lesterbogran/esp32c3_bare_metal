@@ -1,6 +1,7 @@
 # esp32c3_bare_metal
 ## how to build
-*1. Download gcc from 
+
+*1. Download gcc from *
 
 https://github.com/xpack-dev-tools/riscv-none-embed-gcc-xpack/releases
 
