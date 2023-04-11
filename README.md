@@ -1,7 +1,7 @@
 # esp32c3_bare_metal
 ## how to build
 
-*1. Download gcc from *
+*1. Download gcc from*
 
 https://github.com/xpack-dev-tools/riscv-none-embed-gcc-xpack/releases
 
@@ -22,7 +22,7 @@ https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.
 ```
 
 ```
-*4. Write bin file (ejemplo.bin) *
+*4. Write bin file (ejemplo.bin)*
 
 Linux:
 ```
