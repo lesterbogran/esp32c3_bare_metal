@@ -1,40 +1,43 @@
 # esp32c3_bare_metal
 ## how to build
-*1.modify cross.txt*
-set your gcc pass
-you can download gcc from 
+*1. Download gcc from 
 
 ```
 https://xpack.github.io/riscv-none-embed-gcc/
+
+https://github.com/xpack-dev-tools/riscv-none-embed-gcc-xpack/releases
 ```
 
-*2.build hello_world*
+*2.build example*
 
-cd hello_world
-```
-meson setup _build --cross-file cross.txt
-```
-
-*3.build*
 
 ```
-cd _build
-ninja
+cd example
+make
 ```
 
-## how to download
-*windows*
+*3. Download and install espressif tools*
 
-first you need install python3
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html#introduction
 
-```
-pip install esptool
-```
 
-then
+
 
 ```
-esptool.py --port COM3 --baud 921600 write_flash 0x0000 demo.bin
+
+```
+*4. Write bin file (ejemplo.bin) *
+
+Linux:
+```
+esptool.py --port /dev/ttyUSB0 --baud 921600 write_flash 0x0000 ejemplo.bin
+python -m serial.tools.miniterm COM3 115200
+```
+
+
+windows:
+```
+esptool.py --port COM3 --baud 921600 write_flash 0x0000 ejemplo.bin
 python -m serial.tools.miniterm COM3 115200
 ```
 exit you can
