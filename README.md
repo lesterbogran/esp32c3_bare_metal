@@ -2,14 +2,9 @@
 ## how to build
 *1. Download gcc from 
 
-```
-https://xpack.github.io/riscv-none-embed-gcc/
-
 https://github.com/xpack-dev-tools/riscv-none-embed-gcc-xpack/releases
-```
 
 *2.build example*
-
 
 ```
 cd example
