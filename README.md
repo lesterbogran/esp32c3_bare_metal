@@ -17,11 +17,6 @@ make
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html#introduction
 
 
-
-
-```
-
-```
 *4. Write bin file (ejemplo.bin)*
 
 Linux:
